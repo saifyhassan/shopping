@@ -1,17 +1,12 @@
 import React,{useState,useEffect} from "react";
 import {getusers} from "./cartlistapi"
 const initial={
-    
-//     discription:"",
-//     name:"",
     image:"",
     price:"",
     number:""
 
    
 }
-
-
 function Shoppingcart() {
         const [users,setUsers]=useState([]);
         useEffect(()=>{
@@ -28,9 +23,7 @@ function Shoppingcart() {
     
         const fetchvalue=(e)=>{
             setUser1({...user1, [e.target.name]:e.target.value})
-            alert(user1.number)
-        //     alert(user1.number)
-        }
+       }
     
         return (
                 <div className="row container-fluid">

@@ -53,7 +53,7 @@ function Registertable() {
                                 <th>Username</th>
                                 <th>Email</th>
                                 <th>Number</th>
-                                <th>Value</th>
+                                <th>State</th>
                                 <th>Active</th>
                                 <th>Inactive</th>
                                 </tr>
